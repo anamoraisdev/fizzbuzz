@@ -10,7 +10,6 @@ function fizzBuzz(){
     let entrada = input.value
     const saidaResultado = document.getElementById("resultado")
     let resultado;
-  
     if ( entrada % 3 === 0 && entrada % 5 === 0){
         resultado = "FizzBuzz"
     } else if ( entrada % 3 === 0){
